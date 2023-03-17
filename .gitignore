@@ -1,0 +1,27 @@
+# Ignore all compiled output files
+*.pro
+*.kicad_pcb-bak
+*.net
+*.bak
+*.sch-bak
+*.dsn~
+*.ses
+*.xml
+*.dcm
+*.gbrjob
+*.backup
+
+# Ignore all files in the .cache/ directory
+.cache/
+
+# Ignore backup files created by text editors or KiCad
+*.backup
+*~
+
+# Ignore project-specific files and directories
+*.pro.user
+*.sch
+*.kicad_pcb
+*.lib
+*.pretty
+
